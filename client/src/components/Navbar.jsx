@@ -58,6 +58,7 @@ const Navbar =() => {
               <Image src={icon} w={8} h={8} mr={{base:'1em',md:'10px'}}></Image>
               <VisuallyHidden>Blog App</VisuallyHidden>
             </chakra.a>
+            <IconButton display={{base:'flex', md:'none'}} icon={colorMode === 'light' ? <FaMoon/> : <FaSun/>} variant='ghost' onClick={toggleColorMode}/>
           </Flex>
           <HStack display="flex" alignItems="center" spacing={1}>
             <HStack
