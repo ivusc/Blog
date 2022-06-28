@@ -50,7 +50,7 @@ const SignIn = () => {
   }
 
   return (
-    <Container maxW={{base:'95%', md:'25%'}} display={'flex'} flexDir={'column'} justifyContent={'start'}>
+    <Container maxW={{base:'95%', md:'50%', xl:'25%'}} display={'flex'} flexDir={'column'} justifyContent={'start'}>
       <Heading mb={'0.25em'}>Login to your account</Heading>
       <Text mb={'2em'}>Don&apos;t have an account? Sign up <chakra.a _hover={{ textDecoration: 'underline'}} as={Link} to='/sign-up' color={useColorModeValue('blue.600','blue.300')}>here</chakra.a>.</Text>
       <Image src={icon} display={'flex'} alignSelf={'center'} width={'200px'} height={'200px'} mb={'2em'}/>

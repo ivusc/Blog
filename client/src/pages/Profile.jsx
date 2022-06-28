@@ -27,7 +27,7 @@ const Profile = () => {
 
   useEffect(() => {
     dispatch(getUserbyUsername(username));
-  }, [user,searchedUser]);
+  }, []);
 
   return (
     <Container maxW={{base:'95%', md:'90%'}} textAlign={'center'}>
