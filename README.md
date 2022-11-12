@@ -30,6 +30,6 @@ If you've liked this website, feel free to give it a star! 🌟
 <div align='center'>
 
 
-  ## Click [here](https://blogapp-crix.netlify.app/) to visit the live website demo.
+  ### Click [here](https://blogapp-crix.netlify.app/) to visit the live website demo.
 
 </div>
